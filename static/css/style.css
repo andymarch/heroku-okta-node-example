@@ -42,6 +42,7 @@ p {
 
 .section {
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -53,4 +54,18 @@ p {
 .section h1,h2,h3,h4 {
     margin: 5px;
     text-align: center;
+}
+
+.btn-positive {
+    margin: 5px;
+    background-color: #ed1c2e;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 30px;
+    height: 30;
+    border: 2px solid transparent;
+    cursor: pointer;
 }
